@@ -33,14 +33,26 @@ Configuration in Switch:
   - line vty 0 <max>
   - transport input ssh
   - login local 
+  
   ![image](https://user-images.githubusercontent.com/93396414/204991928-158ff3a2-103b-483c-b126-798865ff510d.png)
 
 Configuration in ubuntu server (normal user recommended):
   - $ ssh-keygen -t rsa
   - $ ssh-copy-id -oKexAlgorithms=+diifie-hellman-group1-sha1' -o 'Ciphers=+aes256-cbc' 'pngha@172.3.1.98'
-  - Sửa file /etc/ssh/ssh_config và tạo file ~/.ssh/config có nội dung:
+  - Sửa file /etc/ssh/ssh_config và tạo file ~/.ssh/config có nội dung: 
+  
   ![image](https://user-images.githubusercontent.com/93396414/204994211-e89ffac2-88eb-4626-aec5-14a935e25f9e.png)
 
+  Kiểm tra bằng lệnh:
+  - ssh pngha@<ip>
+
   
+## Task3: Network automation with Ansible.
+  - Tạo file hosts trong /etc/ansible với nội dung:
+     sw3 ansible_host=172.3.1.98
+  - Tạo file make1.yml:
+  
+  ![image](https://user-images.githubusercontent.com/93396414/205001773-d5fc0758-2276-4754-bc07-df96749b78b4.png)
+
   
   
