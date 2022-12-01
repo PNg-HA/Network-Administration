@@ -9,7 +9,6 @@ This task is related to 'Net challenge' repository
      sw3 ansible_host=172.3.1.98
   - Tạo file make1.yml:
   
-  ![image](https://user-images.githubusercontent.com/93396414/205001773-d5fc0758-2276-4754-bc07-df96749b78b4.png)
   - $anislbe-playbook make1.yml
 
 ![image](https://user-images.githubusercontent.com/93396414/205060692-236b8db0-23f4-47b7-81fd-9b2cdb320e80.png)
