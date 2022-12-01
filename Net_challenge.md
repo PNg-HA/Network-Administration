@@ -49,11 +49,13 @@ Configuration in ubuntu server (normal user recommended):
 
   
 ## Task3: Network automation with Ansible.
+  Referenced: https://www.youtube.com/watch?v=wbVZkb8ocH4&ab_channel=KevinWallaceTraining%2CLLC
   - Tạo file hosts trong /etc/ansible với nội dung:
      sw3 ansible_host=172.3.1.98
   - Tạo file make1.yml:
   
   ![image](https://user-images.githubusercontent.com/93396414/205001773-d5fc0758-2276-4754-bc07-df96749b78b4.png)
+  - $anislbe-playbook make1.yml
 
   
   
