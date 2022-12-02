@@ -53,7 +53,7 @@ Configuration in ubuntu server (normal user recommended):
   
   Topology: 
   
-  ![image](https://user-images.githubusercontent.com/93396414/205218785-7c743cb8-d659-4456-927c-84aae0193df1.png)
+   ![image](https://user-images.githubusercontent.com/93396414/205218883-dd6ff4f1-42bb-43f0-b04d-7fc9b3d19282.png)
 
 
   
