@@ -2,27 +2,28 @@
 ![image](https://user-images.githubusercontent.com/93396414/204736786-e83ff41c-7812-4b46-a6fe-fb74c3bf47b9.png)
 
 Configuration in Switch:
-  - ##### conf t
-  - ##### vlan 10
-  - ##### int e0/0
-  - ##### no shut
-  - ##### switchport mode access
-  - ##### switchport access vlan 10
-  - ##### int vlan 10
-  - ##### ip addr 172.3.1.98 255.255.255.240
-  - ##### no shut
+      - conf t
+      - vlan 10
+      - int e0/0
+      - no shut
+      - switchport mode access
+      - switchport access vlan 10
+      - int vlan 10
+      - ip addr 172.3.1.98 255.255.255.240
+      - no shut
   
   ![image](https://user-images.githubusercontent.com/93396414/204991854-3271b252-0bf3-432d-9322-f299c5bad850.png)
 
 Kiểm tra bằng lệnh:
-  - ##### show ip int brief
-  - ##### show vlan status 
+      - show ip int brief
+      - show vlan status 
 
 Configuration in ubuntu server:
-  - $ sudo nano /etc/netplan/...
-  - Định tuyến tĩnh:
-    ![image](https://user-images.githubusercontent.com/93396414/204737495-5ecf35c3-c203-48e6-a294-4616520b781f.png)
-  - $ sudo netplan apply
+      - $ sudo nano /etc/netplan/...
+      - Định tuyến tĩnh:
+      
+      ![image](https://user-images.githubusercontent.com/93396414/204737495-5ecf35c3-c203-48e6-a294-4616520b781f.png)
+      - $ sudo netplan apply
 
 ## Task2: Cấu hình SSH trên switch với user pngha priv 15 (quyền cao nhất - privileged). Setup SSH-client trên ubuntu server.
 
