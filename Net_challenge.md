@@ -60,6 +60,7 @@ Configuration in ubuntu server (normal user recommended):
    ![image](https://user-images.githubusercontent.com/93396414/205218757-3e710cd5-d956-4e0e-949f-25c3911008d8.png)
 
   Configuration of the router:
+  
     - conf t
     - int e0/1
     - ip addr dhcp
