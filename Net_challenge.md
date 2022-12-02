@@ -49,12 +49,23 @@ Configuration in ubuntu server (normal user recommended):
 
   ## Configure LAN to access Internet
   
-  ![image](https://user-images.githubusercontent.com/93396414/205218757-3e710cd5-d956-4e0e-949f-25c3911008d8.png)
+ 
   
   Topology: 
   
    ![image](https://user-images.githubusercontent.com/93396414/205218883-dd6ff4f1-42bb-43f0-b04d-7fc9b3d19282.png)
+  
+  Configuration of the computer:
+  
+   ![image](https://user-images.githubusercontent.com/93396414/205218757-3e710cd5-d956-4e0e-949f-25c3911008d8.png)
 
+  Configuration of the router:
+    - conf t
+    - int e0/1
+    - ip addr dhcp
+    - int e0/0
+    - ip addr 192.168.2.1 255.255.255.128
+  
 
   
   
