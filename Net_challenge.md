@@ -30,7 +30,7 @@ Configuration in Switch:
   - conf t
   - username pngha privilege 15 secret <pass>
   - ip domain-name example.com
-  - crypto generate key rsa
+  - crypto key generate rsa
   - line vty 0 <max>
   - transport input ssh
   - login local 
