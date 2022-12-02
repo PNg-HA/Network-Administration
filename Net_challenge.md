@@ -46,7 +46,7 @@ Configuration in Switch:
 Configuration in ubuntu server (normal user recommended):
 
       - $ ssh-keygen -t rsa
-      - $ ssh-copy-id -oKexAlgorithms=+diifie-hellman-group1-sha1' -o 'Ciphers=+aes256-cbc' 'pngha@ip-add'
+      - $ ssh-copy-id -i ~/.ssh/id_rsa.pub -oKexAlgorithms=+diifie-hellman-group1-sha1' -o 'Ciphers=+aes256-cbc' 'pngha@ip-add'
       - Sửa file /etc/ssh/ssh_config và tạo file ~/.ssh/config có nội dung: 
   
   ![image](https://user-images.githubusercontent.com/93396414/204994211-e89ffac2-88eb-4626-aec5-14a935e25f9e.png)
