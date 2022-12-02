@@ -67,7 +67,14 @@ Configuration in ubuntu server (normal user recommended):
     - int e0/0
     - ip addr 192.168.2.1 255.255.255.128
   
+  
+## Fix: Command rejected: An interface whose trunk encapsulation is "Auto" can not be configured to "trunk" mode
 
+To fix this error, type:
+  
+  - conf t
+  - int e0/0
+  - switchport trunk encapsulation dot1q
   
   
   
