@@ -47,7 +47,14 @@ Configuration in ubuntu server (normal user recommended):
   Kiểm tra bằng lệnh:
   - ssh pngha@<ip>
 
+  ## Configure LAN to access Internet
   
+  ![image](https://user-images.githubusercontent.com/93396414/205218757-3e710cd5-d956-4e0e-949f-25c3911008d8.png)
+  
+  Topology: 
+  
+  ![image](https://user-images.githubusercontent.com/93396414/205218785-7c743cb8-d659-4456-927c-84aae0193df1.png)
+
 
   
   
