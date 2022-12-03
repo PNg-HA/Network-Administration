@@ -73,7 +73,8 @@ Configuration in ubuntu server (normal user recommended):
     - ip addr dhcp
     - int e0/0
     - ip addr 192.168.2.1 255.255.255.128
-  
+  ![image](https://user-images.githubusercontent.com/93396414/205431503-01a99fd3-b982-46ac-8249-d4f0ee7293bc.png)
+
   
 ## Fix: Command rejected: An interface whose trunk encapsulation is "Auto" can not be configured to "trunk" mode
 
