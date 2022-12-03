@@ -94,5 +94,6 @@ To fix this error, type:
     - conf t
     - int e0/0
     - switchport trunk encapsulation dot1q
-  
+ 
+
  
