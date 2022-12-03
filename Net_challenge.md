@@ -62,7 +62,7 @@ Configuration in ubuntu server (normal user recommended):
   
    ![image](https://user-images.githubusercontent.com/93396414/205218883-dd6ff4f1-42bb-43f0-b04d-7fc9b3d19282.png)
   
-  Configuration of the computer:
+  Configuration of the Windows computer:
   
    ![image](https://user-images.githubusercontent.com/93396414/205218757-3e710cd5-d956-4e0e-949f-25c3911008d8.png)
 
@@ -75,7 +75,18 @@ Configuration in ubuntu server (normal user recommended):
     - ip addr 192.168.2.1 255.255.255.128
   ![image](https://user-images.githubusercontent.com/93396414/205431503-01a99fd3-b982-46ac-8249-d4f0ee7293bc.png)
 
+## Linux server access Internet:
+![image](https://user-images.githubusercontent.com/93396414/205432002-29c8e637-3d2a-4acf-94c7-30ff1a5547c9.png)
+
+  Configuration of the Linux server:
   
+  - $sudo nano /etc/netplans/00...
+  - Nội dung:
+  
+  ![image](https://user-images.githubusercontent.com/93396414/205431941-b6067942-5e38-4e27-b14a-e5dbf1bf1747.png)
+  
+  - sudo netplans apply
+
 ## Fix: Command rejected: An interface whose trunk encapsulation is "Auto" can not be configured to "trunk" mode
 
 To fix this error, type:
