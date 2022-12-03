@@ -1,6 +1,6 @@
 ## Summary:
 
-![image](https://user-images.githubusercontent.com/93396414/205435274-72e1eea0-4bea-4c12-b0c0-08c675f311ba.png)
+![image](https://user-images.githubusercontent.com/93396414/205435296-03e0b5b7-7791-4044-9bb6-17cbe479b1e5.png)
 
 Referenced: https://www.youtube.com/watch?v=wbVZkb8ocH4&ab_channel=KevinWallaceTraining%2CLLC
 
