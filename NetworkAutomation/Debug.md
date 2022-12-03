@@ -9,3 +9,5 @@
 
  - ansible-playbook playbook-file.yml --syntax-check
  - ansible-playbook playbook-file.yml -vvvv
+
+https://askubuntu.com/questions/719058/blk-update-request-i-o-error-dev-fd0-sector-0
