@@ -4,3 +4,8 @@
  
       $ sudo apt install python3-pip
       $ pip3 install paramiko
+
+## Commands, options to debug:
+
+ - ansible-playbook playbook-file.yml --syntax-check
+ - ansible-playbook playbook-file.yml -vvvv
