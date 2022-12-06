@@ -37,8 +37,29 @@ If you have a bug here (especially in EVE-ng), don't worry. It is the none-exist
     (config-if)# int e0/1
     (config-if)# no shut
     (config-if)# switchport mode trunk
+    ! Ctr + C
+    # copy run start
     
 #### Configuration in router:
 
     # conf t
-[Here]: https://askubuntu.com/questions/719058/blk-update-request-i-o-error-dev-fd0-sector-0    
+    (config)# int e0/0
+    (config-if)# no shut
+    (config)# int e0/0.10
+    (config-subif)# encap dot1Q 10
+    (config-subif)# ip addr 172.3.1.97 255.255.255.240
+    (config-subif)# ip nat inside
+    (config-subif)# no shut
+    (config-subif)# int e0/1
+    (config-if)# no shut
+    (config-if)# ip addr dhcp
+    (config-if)# ip nat outside
+    (config-if)# exit
+    (config)# access-list 10 permit 172.3.1.96 255.255.255.240
+    ! 
+    (config)# access-list 10 permit ip-subnet-mask-in-e0/1
+    (config)# ip nat inside source list 10 int e0/1 overload
+    # copy run start
+    
+[Here]: https://askubuntu.com/questions/719058/blk-update-request-i-o-error-dev-fd0-sector-0
+
