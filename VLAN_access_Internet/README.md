@@ -11,5 +11,34 @@ IP information:
 
 1. Configure static IP:
     
-    $sudo nano /etc/netplans/[`00-installer-config.yml`](00-installer-config.yml)
+    $ sudo nano /etc/netplans/[`00-installer-config.yml`](00-installer-config.yml)
     
+2. Apply the change:
+
+    $ sudo netplan apply
+    
+If you have a bug here (especially in EVE-ng), don't worry. It is the none-existed floppy. [Here] is how to fix it:
+    
+    $ sudo rmmod floppy
+    $ echo "blacklist floppy" | sudo tee /etc/modprobe.d/blacklist-floppy.conf
+    $ sudo dpkg-reconfigure initramfs-tools
+ 
+#### Configuration in switch:
+
+    # conf t
+    (config)# vlan 10
+    (config)# int e0/0
+    (config-if)# no shut
+    (config-if)# switchport mode access
+    (config-if)# switchport access vlan 10
+    (config-if)# int vlan 10
+    (config-if)# ip addr 172.3.1.98 255.255.255.240
+    (config-if)# no shut
+    (config-if)# int e0/1
+    (config-if)# no shut
+    (config-if)# switchport mode trunk
+    
+#### Configuration in router:
+
+    # conf t
+[Here]: https://askubuntu.com/questions/719058/blk-update-request-i-o-error-dev-fd0-sector-0    
