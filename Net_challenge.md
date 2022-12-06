@@ -99,4 +99,6 @@ To fix this error, type:
     (config)# switchport trunk encapsulation dot1q
  
 
+
+
  
