@@ -1,0 +1,13 @@
+# This is the network config written by 'subiquity'
+network:
+  ethernets:
+    ens3:
+      addresses:
+        - 172.3.1.110/28
+      gateway4: 172.3.1.97
+      nameservers: 
+        addresses: [192.168.54.4, 192.168.20.4]
+# Notify that my school has 2 dns server. 8.8.8.8 is optional available. 
+      dhcp: no
+  version: 2  
+      
