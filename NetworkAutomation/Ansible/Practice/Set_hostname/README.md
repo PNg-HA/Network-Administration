@@ -33,7 +33,7 @@
 
 In terminal, type: 
 
-    $ ansible-playbook ipv6.yml
+    $ ansible-playbook hostname.yml
 
 ## Referenced
 1. https://www.youtube.com/watch?v=wbVZkb8ocH4&ab_channel=KevinWallaceTraining%2CLLC
