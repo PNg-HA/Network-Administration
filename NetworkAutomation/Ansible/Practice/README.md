@@ -36,4 +36,11 @@ Edit file /etc/ssh/ssh_config and create file ~/.ssh/config. The OS sometimes pr
         Port 22
         Ciphers aes256-cbc
 
+Configuration for router is much easier. In terminal, just type:
+
+    $ssh pngha@172.3.1.97
+    
+Type yes for footprint.
+
+
 [here]: https://github.com/PNg-HA/Network-Administration/tree/main/VLAN_access_Internet
