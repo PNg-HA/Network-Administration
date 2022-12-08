@@ -42,7 +42,8 @@ In terminal, type:
     
     $ anislbe-playbook make_vlan_switch.yml
 
- > or `$ anislbe-playbook make_vlan_switch.yml -vvvv` if you want to debug.
+ > or `$ anislbe-playbook make_vlan_switch.yml -vvvv` if you want to discover more 
+ > about the operation of Ansible playbook or debug.
 
 Reference: 
   
