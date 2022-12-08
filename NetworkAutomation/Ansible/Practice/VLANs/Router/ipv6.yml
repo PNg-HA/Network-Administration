@@ -1,0 +1,19 @@
+    ---
+    - name: IPv6
+      hosts: router
+      gather_facts: false
+      connection: local
+      
+      vars:
+        cli: 
+          username: pngha
+          password: pngha
+          timeout: 100
+          
+      tasks:
+        - name: global config
+          ios_config:
+            provider: "{{cli}}"
+            lines:
+              - hostname R9
+            register: print_output
