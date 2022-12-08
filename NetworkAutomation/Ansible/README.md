@@ -38,6 +38,7 @@ Python installed by default misses `paramiko`. To install it:
 
     $ sudo apt install python3-pip
     $ pip3 install paramiko
+    
     ![image](https://user-images.githubusercontent.com/93396414/206519660-f4b963d7-fd6d-46c2-b2e4-350de3a06c16.png)
 
     
