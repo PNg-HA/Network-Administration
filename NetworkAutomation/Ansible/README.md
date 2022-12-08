@@ -22,7 +22,7 @@ The script to do tasks.
  
 Type:
     
-    $ Ssudo apt update && sudo apt upgrade
+    $ sudo apt update && sudo apt upgrade
     $ sudo apt install ansible
 
 Check Ansible's version:
@@ -47,3 +47,5 @@ Playbook use YAML syntax. Some tags I often use:
 - gather_facts: get information of how the playbook operates, usually set `false`
 - hosts: the objects listed in Inventory, usually set `all`
 - connection: default set `local`
+#### Playbook's example
+For playbook example, check the `Practice` folder.
