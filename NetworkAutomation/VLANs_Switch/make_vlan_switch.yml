@@ -1,0 +1,29 @@
+ ---
+ #This playbook creates vlan 11
+ 
+ - hosts: sw3
+   gather_facts: false
+   connection: local
+   
+   vars: 
+      cli:
+           username: pngha
+           password: pngha
+           timeout: 100
+   tasks:
+      - name: make vlan 11
+        ios_config: 
+           provider: "{{cli}}"
+           lines:
+                - name Core
+           parents:
+                - vlan 11
+        register: print_output
+        
+     - name:
+       ios_config: "{{cli}}"
+       lines:
+           - switchport mode access 
+           - switchport access vlan 11
+       parents:
+           - interface Ethernet0/1
