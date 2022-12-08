@@ -2,7 +2,7 @@
 > **Note**  
 > This task is based on the topology (devices already set up) in 'Net challenge' repository.
 
-Create file `hosts` in /etc/ansible với nội dung:
+Create file `hosts` in /etc/ansible:
      
      sw3 ansible_host=172.3.1.98
      
