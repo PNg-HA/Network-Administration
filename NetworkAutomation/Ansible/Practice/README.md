@@ -9,6 +9,7 @@ Scenario:
 > Watch [here] for more information.
 
 Configuration SSH on switch and router: 
+
     conf t
     hostname sw3
     ip domain-name example.com
