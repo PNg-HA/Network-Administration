@@ -30,8 +30,6 @@
             lines:
               - hostname R9
             register: print_output
-  
-  ![image](https://user-images.githubusercontent.com/93396414/205433393-9f2c85de-7bbd-4986-a184-dd429363ab4e.png)
 
 In terminal, type: 
 
