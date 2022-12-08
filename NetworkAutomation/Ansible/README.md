@@ -24,7 +24,6 @@ Type:
     
     $ sudo apt update && sudo apt upgrade
     $ sudo apt install ansible
-![image](https://user-images.githubusercontent.com/93396414/206517565-06eebb5b-80f9-45ce-8222-6f5c76aa9e24.png)
 
 Check Ansible's version:
   
@@ -39,6 +38,8 @@ Python installed by default misses `paramiko`. To install it:
 
     $ sudo apt install python3-pip
     $ pip3 install paramiko
+    ![image](https://user-images.githubusercontent.com/93396414/206519660-f4b963d7-fd6d-46c2-b2e4-350de3a06c16.png)
+
     
 You have installed Ansible. Now check out **Ansible playbook**, the main part of this instruction.
 ### Ansible playbook
