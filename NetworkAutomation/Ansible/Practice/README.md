@@ -23,4 +23,17 @@ Configuration SSH on switch and router:
     transport input ssh
     ip ssh veriosn 2
 
+Configuration in ubuntu server for SSH in switch:
+
+     $ ssh-keygen -t rsa
+     $ ssh-copy-id -i ~/.ssh/id_rsa.pub -oKexAlgorithms=+diifie-hellman-group1-sha1' -o 'Ciphers=+aes256-cbc' 'pngha@ip-add'
+     
+Edit file /etc/ssh/ssh_config and create file ~/.ssh/config. The OS sometimes prefers the former. 
+    
+    Host 172.3.1.98
+        KexAlgoirthms diffie-hellman-group-sha1
+        User pngha
+        Port 22
+        Ciphers aes256-cbc
+
 [here]: https://github.com/PNg-HA/Network-Administration/tree/main/VLAN_access_Internet
