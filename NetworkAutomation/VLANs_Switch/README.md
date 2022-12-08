@@ -5,7 +5,7 @@ Tạo file hosts trong /etc/ansible với nội dung:
      
      sw3 ansible_host=172.3.1.98
      
-Tạo file make1.yml:
+Tạo file make_vlan_switch.yml:
      
      ---
      #This playbook creates vlan 11
