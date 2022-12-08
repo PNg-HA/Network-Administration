@@ -24,6 +24,7 @@ Type:
     
     $ sudo apt update && sudo apt upgrade
     $ sudo apt install ansible
+![image](https://user-images.githubusercontent.com/93396414/206517565-06eebb5b-80f9-45ce-8222-6f5c76aa9e24.png)
 
 Check Ansible's version:
   
