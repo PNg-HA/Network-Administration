@@ -46,7 +46,7 @@ Configuration for router is much easier. In terminal, just type:
 
     $ssh pngha@172.3.1.97
     
-Type yes for footprint.
+Follow the OS recommendation. Type yes for footprint.
 
 
 [here]: https://github.com/PNg-HA/Network-Administration/tree/main/VLAN_access_Internet
