@@ -17,6 +17,7 @@ Configuration SSH on switch and router:
     ! module: 1024
     
     username pngha priv 15 secret type-password
+    ! privilege 15 let user access EXEC mode
     line vty 0 4 
     ! Since EVE-ng switch set up 4 interface, Ethernet0/0 -> 4
     login local
