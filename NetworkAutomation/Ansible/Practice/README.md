@@ -26,6 +26,15 @@ Configuration SSH on switch and router:
     transport input ssh
     ip ssh veriosn 2
 
+#### Delete old router's footprint in Ubuntu server:
+
+   > **Note**  
+   > If you have SSH before, the server will have footprint of switch and router. Delete them.
+
+    $ cd ~/.ssh
+    $ nano know_hosts
+    Delete router (switch)'s footprint (look at the IP's router (switch)). 
+
 Configuration in ubuntu server for SSH in switch:
 
      $ ssh-keygen -t rsa
@@ -46,9 +55,11 @@ Edit file /etc/ssh/ssh_config and create file ~/.ssh/config. The OS sometime pre
 
 Configuration for router is much easier. In terminal, just type:
 
-    $ ssh pngha@172.3.1.97
+    $ ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -oCiphers=+aes256-cbc pngha@172.3.1.97
     
 Follow the OS recommendation. Type yes for footprint.
 
+Reference: 
+1. https://www.youtube.com/watch?v=wbVZkb8ocH4&ab_channel=KevinWallaceTraining%2CLLC
 
 [here]: https://github.com/PNg-HA/Network-Administration/tree/main/VLAN_access_Internet
