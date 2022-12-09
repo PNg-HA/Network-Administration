@@ -32,7 +32,7 @@ Configuration in ubuntu server for SSH in switch:
      ! The terminal will prompt the location of the key and the passphrase. Press Enter for all of them if you want the location is at ~/.ssh/id_rsa and no passphrase.
      $ ssh-copy-id -i ~/.ssh/id_rsa.pub -oKexAlgorithms=+diifie-hellman-group1-sha1' -o 'Ciphers=+aes256-cbc' 'pngha@172.3.1.98'
      
-Edit file /etc/ssh/ssh_config and create file ~/.ssh/config. The OS sometimes prefers the former. 
+Edit file /etc/ssh/ssh_config and create file ~/.ssh/config. The OS sometime prefers the former. 
     
     Host 172.3.1.98
         KexAlgoirthms diffie-hellman-group-sha1
