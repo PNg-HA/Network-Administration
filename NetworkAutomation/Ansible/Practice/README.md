@@ -8,7 +8,7 @@ To ensure Ansible can execute actions on other nodes, make sure that the Ansible
 
 ![image](https://user-images.githubusercontent.com/93396414/206422327-590f5bcc-3436-41ce-b102-c3a30da1e71f.png)
 
-> Watch [here] for more information.
+> Watch [here] for more information about IP assignment.
 
 Configuration SSH on switch and router: 
 
