@@ -1,8 +1,10 @@
+# Scenario and setup baed network
+
 To ensure Ansible can execute actions on other nodes, make sure that the Ansible server can SSH them. Each IOS version of Cisco devices has different way to set up SSH.
 - My switch's IOS version: 15.1
 - My router's IOS version: 15.2
 
-Scenario:
+
 
 ![image](https://user-images.githubusercontent.com/93396414/206422327-590f5bcc-3436-41ce-b102-c3a30da1e71f.png)
 
