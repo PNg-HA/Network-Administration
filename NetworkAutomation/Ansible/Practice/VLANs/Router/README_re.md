@@ -1,38 +1,18 @@
-## Summary:
+# Create VLANs in router
 
-![image](https://user-images.githubusercontent.com/93396414/205435296-03e0b5b7-7791-4044-9bb6-17cbe479b1e5.png)
-
-Referenced: https://www.youtube.com/watch?v=wbVZkb8ocH4&ab_channel=KevinWallaceTraining%2CLLC
-
-#### Delete old router's footprint in Ubuntu server:
-
-   > **Note**  
-   > I run ansible with user pngha. I delete footprint in /home/pngha
-
-    $ cd ~/.ssh
-    $ nano know_hosts
-    Delete router's footprint (look at the IP's router). 
-
-#### Ubuntu server SSH to router:
-
-    $ ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -oCiphers=+aes256-cbc pngha@172.3.1.97
-    $ sudo nano /etc/hosts (does not matter)
-    
-    ![image](https://user-images.githubusercontent.com/93396414/205434170-307a434d-7ead-4a68-871f-d3c0ab95773b.png)
-
-#### Configuration in Ubuntu server:
-
-    $ cd /etc/ansible
-    $ ls
+      $ cd /etc/ansible
+      $ sudo nano hosts
   
-  ![image](https://user-images.githubusercontent.com/93396414/205433321-c0c8030b-1837-414a-b885-a30671f37bd6.png)
+Type:
+      
+      [routers]
+      R9 ansible_host=172.3.1.97
 
-    $ sudo nano hosts
+Create make_vlan.yml:
+      
+      
+      
+Reference: 
+1. https://www.youtube.com/watch?v=wbVZkb8ocH4&ab_channel=KevinWallaceTraining%2CLLC
   
-  ![image](https://user-images.githubusercontent.com/93396414/205433350-35dd63f4-4e35-485c-b103-84aef833d71e.png)
-
-  File ansible.cfg is not edited.
-  
-    $ sudo nano ipv6.yml
-  
-  ![image](https://user-images.githubusercontent.com/93396414/205433393-9f2c85de-7bbd-4986-a184-dd429363ab4e.png)
+ 
