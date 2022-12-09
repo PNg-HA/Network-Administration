@@ -46,7 +46,7 @@ Edit file /etc/ssh/ssh_config and create file ~/.ssh/config. The OS sometime pre
 
 Configuration for router is much easier. In terminal, just type:
 
-    $ssh pngha@172.3.1.97
+    $ ssh pngha@172.3.1.97
     
 Follow the OS recommendation. Type yes for footprint.
 
