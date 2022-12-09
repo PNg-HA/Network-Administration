@@ -1,9 +1,6 @@
 # Create VLANs in router
 
-      $ cd /etc/ansible
-      $ sudo nano hosts
-  
-Type:
+Create /etc/ansible/hosts:
       
       [routers]
       R9 ansible_host=172.3.1.97
