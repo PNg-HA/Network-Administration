@@ -60,6 +60,6 @@ Configuration for router is much easier. In terminal, just type:
 Follow the OS recommendation. Type yes for footprint.
 
 Reference: 
-1. https://www.youtube.com/watch?v=wbVZkb8ocH4&ab_channel=KevinWallaceTraining%2CLLC
+
 
 [here]: https://github.com/PNg-HA/Network-Administration/tree/main/VLAN_access_Internet
