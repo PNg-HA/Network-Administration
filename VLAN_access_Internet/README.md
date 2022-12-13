@@ -24,8 +24,11 @@ If you have a bug here (especially in EVE-ng), don't worry. It is the none-exist
     $ sudo dpkg-reconfigure initramfs-tools
     
 If you use VMWare virtual machine, remeber to change the connection type:
+
 ![image](https://user-images.githubusercontent.com/93396414/207284271-95a1f77e-bb6c-4970-9698-40e5d4826dfc.png)
+
 Vmet0 -> Choose your wire card:
+
 ![image](https://user-images.githubusercontent.com/93396414/207284491-a47863aa-3c63-4b07-9e26-27e6298835ec.png)
 
 #### Configuration in switch:
