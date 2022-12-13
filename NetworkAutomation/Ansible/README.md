@@ -16,7 +16,8 @@ The script to do tasks.
 
 ![image](https://user-images.githubusercontent.com/93396414/206394983-f1659380-bbd5-4feb-a0c4-6e6b13733c0b.png)
 
-### Installation Ansible in Ubuntu server 22.04
+## Installation Ansible:
+Ansible is not available in Windows, but in Linux (unless you use WSL). In this reposistory, I install Ansible in Ubuntu server 22.04
    > **Note**  
    > For convenience, I use apt. Ansible in apt is not the latest, but it does not matter.
  
