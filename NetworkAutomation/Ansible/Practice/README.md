@@ -24,7 +24,7 @@ Configuration SSH on switch and router:
     ! Since EVE-ng switch set up 4 interface, Ethernet0/0 -> 4
     login local
     transport input ssh
-    ip ssh veriosn 2
+    ip ssh version 2
 
 #### Delete old router's footprint in Ubuntu server:
 
