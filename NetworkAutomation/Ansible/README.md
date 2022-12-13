@@ -50,7 +50,7 @@ Playbook use YAML syntax. Some tags I often use:
 - gather_facts: get information of how the playbook operates, usually set `false`
 - hosts: the objects listed in Inventory, usually set `all`
 - connection: default set `local`
-- lines & parents: where to write commands
+- lines & parents: where to write commands. Default in cisco is configuration mode.
    > **Note**  
    > Remember the command in devices must be written **exactly**, not shortcuts. For example, must be "interface", not "int".
    
