@@ -44,6 +44,7 @@ Python installed by default misses `paramiko`. To install it:
 
     
 You have installed Ansible. Now check out **Ansible playbook**, the main part of this instruction.
+## Practice
 ### Ansible playbook
 #### Syntax
 Playbook use YAML syntax. Some tags I often use:
