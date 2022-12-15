@@ -44,6 +44,7 @@ Vmet0 -> Choose your wire card:
     (config-if)# no shut
     (config-if)# int e0/1
     (config-if)# no shut
+    (config-if)# switchport trunk encap dot1Q
     (config-if)# switchport mode trunk
     ! Ctr + C
     # copy run start
