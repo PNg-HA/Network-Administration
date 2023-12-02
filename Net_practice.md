@@ -1,3 +1,4 @@
+# Practice for network configuration
 ## Task 1: tạo vlan 10 trên switch, gán ip 172.3.1.98/28. (Nhánh computer là phụ - luyện tập)
 ![image](https://user-images.githubusercontent.com/93396414/204736786-e83ff41c-7812-4b46-a6fe-fb74c3bf47b9.png)
 
