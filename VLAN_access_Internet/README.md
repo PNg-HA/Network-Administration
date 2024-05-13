@@ -65,8 +65,7 @@ Vmet0 -> Choose your wire card:
     (config-if)# ip nat outside
     (config-if)# exit
     (config)# access-list 10 permit 172.3.1.96 255.255.255.240
-    ! 
-    (config)# access-list 10 permit ip-subnet-mask-in-e0/1
+    !   (config)# access-list 10 permit ip-subnet-mask-in-e0/1
     (config)# ip nat inside source list 10 int e0/1 overload
     # copy run start
     
