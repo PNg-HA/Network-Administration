@@ -1,3 +1,3 @@
 # Network-Administration
 
-A repo for some projects related to Network
+Some projects related to Network
